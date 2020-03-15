@@ -1,12 +1,12 @@
 {
-  "name": "SPA-vanilla",
+  "name": "spa-vanilla",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jose Enrique Marquez <jmrqz21@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": " webpack --modo production",
-    "start": " webpack-dev-server --modo development --open"
+    "build": " webpack --mode production",
+    "start": " webpack-dev-server --mode development --open"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
